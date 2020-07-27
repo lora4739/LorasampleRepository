@@ -1,0 +1,634 @@
+[1595855288.673][INFO]: Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10361
+[1595855288.674][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1595855289.619][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "user-data-dir=C:\\Users\\srika\\AppData\\Local\\Google\\Chrome\\User Data\\Default", "--disable-notifications" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "user-data-dir=C:\\Users\\srika\\AppData\\Local\\Google\\Chrome\\User Data\\Default", "--disable-notifications" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1595855289.624][INFO]: Populating Preferences file: {
+   "account_id_migration_state": 2,
+   "account_tracker_service_last_update": "13240071264868928",
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autocomplete": {
+      "retention_policy_last_version": 84
+   },
+   "autofill": {
+      "credit_card_enabled": false,
+      "enabled": false,
+      "profile_enabled": false
+   },
+   "browser": {
+      "check_default_browser": false,
+      "window_placement": {
+         "bottom": 816,
+         "left": 8,
+         "maximized": true,
+         "right": 1060,
+         "top": 8,
+         "work_area_bottom": 824,
+         "work_area_left": 0,
+         "work_area_right": 1536,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 21843,
+   "data_reduction": {
+      "this_week_number": 2638,
+      "this_week_services_downstream_foreground_kb": {
+         "35473769": 0,
+         "35565745": 2,
+         "41424546": 4,
+         "67052219": 0,
+         "78917933": 80,
+         "95682324": 3
+      }
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "domain_diversity": {
+      "last_reporting_timestamp": "13240071271770527"
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "chrome_url_overrides": {
+
+      }
+   },
+   "gaia_cookie": {
+      "changed_time": 1595597666.314275,
+      "hash": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+      "last_list_accounts_data": "[\"gaia.l.a.r\",[]\n]\n"
+   },
+   "gcm": {
+      "product_category_for_subtypes": "com.chrome.windows"
+   },
+   "google": {
+      "services": {
+         "signin_scoped_device_id": "e8b4e958-e421-4728-bb39-0500675b6105"
+      }
+   },
+   "invalidation": {
+      "per_sender_topics_to_handler": {
+         "1013309121859": {
+
+         },
+         "8181035976": {
+
+         }
+      }
+   },
+   "language_model_counters": {
+      "en": 2
+   },
+   "media": {
+      "device_id_salt": "81AD05FD3DA380CBA2DD0E668A57655F",
+      "engagement": {
+         "schema_version": 4
+      }
+   },
+   "media_router": {
+      "receiver_id_hash_token": "SqwhhdnSIpk6HPxU41rV34cykYu2YabNph5p1+GHr0tE6qqHsuU8+JBefae3EkJyWnzcAkvFJN/Oy/96I7maRQ=="
+   },
+   "ntp": {
+      "custom_background_local_to_device": false,
+      "num_personal_suggestions": 1
+   },
+   "plugins": {
+      "plugins_list": [  ]
+   },
+   "previews": {
+      "litepage": {
+         "user-needs-notification": false
+      },
+      "offline_helper": {
+         "available_pages": {
+
+         }
+      }
+   },
+   "profile": {
+      "avatar_index": 26,
+      "content_settings": {
+         "exceptions": {
+            "accessibility_events": {
+
+            },
+            "app_banner": {
+
+            },
+            "ar": {
+
+            },
+            "auto_select_certificate": {
+
+            },
+            "automatic_downloads": {
+
+            },
+            "autoplay": {
+
+            },
+            "background_sync": {
+
+            },
+            "bluetooth_chooser_data": {
+
+            },
+            "bluetooth_guard": {
+
+            },
+            "bluetooth_scanning": {
+
+            },
+            "camera_pan_tilt_zoom": {
+
+            },
+            "client_hints": {
+               "https://www.amazon.in:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13240072176486036",
+                  "model": 1,
+                  "setting": {
+                     "client_hints": [ 4, 5, 6 ],
+                     "expiration_time": 87995598576.48604
+                  }
+               }
+            },
+            "clipboard": {
+
+            },
+            "cookies": {
+
+            },
+            "durable_storage": {
+
+            },
+            "flash_data": {
+
+            },
+            "geolocation": {
+
+            },
+            "hid_chooser_data": {
+
+            },
+            "hid_guard": {
+
+            },
+            "images": {
+
+            },
+            "important_site_info": {
+
+            },
+            "installed_web_app_metadata": {
+
+            },
+            "intent_picker_auto_display": {
+
+            },
+            "javascript": {
+
+            },
+            "legacy_cookie_access": {
+
+            },
+            "media_engagement": {
+
+            },
+            "media_stream_camera": {
+
+            },
+            "media_stream_mic": {
+
+            },
+            "midi_sysex": {
+
+            },
+            "mixed_script": {
+
+            },
+            "native_file_system_read_guard": {
+
+            },
+            "native_file_system_write_guard": {
+
+            },
+            "nfc": {
+
+            },
+            "notifications": {
+
+            },
+            "password_protection": {
+
+            },
+            "payment_handler": {
+
+            },
+            "permission_autoblocking_data": {
+
+            },
+            "plugins": {
+
+            },
+            "popups": {
+
+            },
+            "ppapi_broker": {
+
+            },
+            "protocol_handler": {
+
+            },
+            "safe_browsing_url_check_data": {
+
+            },
+            "sensors": {
+
+            },
+            "serial_chooser_data": {
+
+            },
+            "serial_guard": {
+
+            },
+            "site_engagement": {
+               "https://www.amazon.in:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13240072172701492",
+                  "model": 0,
+                  "setting": {
+                     "lastEngagementTime": 1.3240072172701468e+16,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 4.5,
+                     "rawScore": 4.5
+                  }
+               }
+            },
+            "sound": {
+
+            },
+            "ssl_cert_decisions": {
+
+            },
+            "storage_access": {
+
+            },
+            "subresource_filter": {
+
+            },
+            "subresource_filter_data": {
+
+            },
+            "usb_chooser_data": {
+
+            },
+            "usb_guard": {
+
+            },
+            "vr": {
+
+            },
+            "window_placement": {
+
+            }
+         },
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         },
+         "pref_version": 1
+      },
+      "creation_time": "13240071264475557",
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "exit_type": "Crashed",
+      "exited_cleanly": true,
+      "last_engagement_time": "13240072172701469",
+      "managed_user_id": "",
+      "name": "Person 1",
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "signin": {
+      "DiceMigrationComplete": true,
+      "allowed": true
+   },
+   "token_service": {
+      "dice_compatible": true
+   },
+   "translate": {
+      "enabled": false
+   },
+   "translate_site_blacklist_with_time": {
+
+   },
+   "web_apps": {
+      "system_web_app_last_installed_language": "en-US",
+      "system_web_app_last_update": "84.0.4147.89"
+   }
+}
+[1595855289.625][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "browser": {
+      "shortcut_migration_version": "84.0.4147.89"
+   },
+   "hardware_acceleration_mode_previous": true,
+   "legacy": {
+      "profile": {
+         "name": {
+            "migrated": true
+         }
+      }
+   },
+   "os_crypt": {
+      "encrypted_key": "RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAABuNcwCrD2RS5kAaDLcC7XJAAAAAAIAAAAAABBmAAAAAQAAIAAAAAI7Fg/xvPf4+Ykq1SikY8k4EwW2qZp8xeKJSgK9kIrAAAAAAA6AAAAAAgAAIAAAAPBkjFf+BFplW49PHm7Ati1vkHuHSqxNJGvZ+HhYCUJpMAAAANBO6dY7ZW7Tti5SMDYDrUAs0WkRmmuF5cyuPaQ1v/R5QElRqZJKiWIQeavuENUcM0AAAACmfj3Os8p8UTvIAaZ3ZkI65I8mk9ROIu5hMUQPaTSSMdUhChe3hq2Me4UxEUQBq8VcU9WnYtqBQopCfLvzi5hw"
+   },
+   "policy": {
+      "last_statistics_update": "13240071264663306"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1595597664.838893,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "gaia_given_name": "",
+            "gaia_id": "",
+            "gaia_name": "",
+            "hosted_domain": "",
+            "is_consented_primary_account": false,
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "local_auth_credentials": "",
+            "managed_user_id": "",
+            "metrics_bucket_index": 1,
+            "name": "Person 1",
+            "user_name": ""
+         }
+      },
+      "last_active_profiles": [ "Default" ],
+      "metrics": {
+         "next_bucket_index": 2
+      },
+      "profile_counts_reported": "13240071264668538"
+   },
+   "profile_network_context_service": {
+      "http_cache_finch_experiment_groups": "None None None"
+   },
+   "rappor": {
+      "cohort_seed": 145,
+      "secret": "pGWg4CCxwo3ISnU6UUVXIvghhgd75/mwyeT7x6Mrxsm359lyjTrFy5KPw3wm5U2R"
+   },
+   "shutdown": {
+      "num_processes": 0,
+      "num_processes_slow": 0,
+      "type": 0
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   },
+   "subresource_filter": {
+      "ruleset_version": {
+         "checksum": 0,
+         "content": "",
+         "format": 0
+      }
+   },
+   "tab_stats": {
+      "last_daily_sample": "13240071264849807",
+      "max_tabs_per_window": 1,
+      "total_tab_count_max": 1,
+      "window_count_max": 1
+   },
+   "ukm": {
+      "persisted_logs": [  ]
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1590674670",
+      "launch_count": "2",
+      "page_load_count": "7"
+   },
+   "user_experience_metrics": {
+      "client_id2": "05ed4554-b098-41f2-a605-abd097a0e45c",
+      "client_id_timestamp": "1584367176",
+      "initial_logs2": [ {
+         "data": "H4sIAAAAAAAAAONcb8F+VzPoWqAAg9QkJo4dhxf/YBXitzDRM9AzMTQx17Ow1DUzkbjwYe9nViXW1Dzd0GAtCS6u8My8lPzyYgW/ECEuQwOgWkMLYzMjozAutgoLs3gzE4F9dRINDTsuff4vr8SgwWjQwGPxgM2Ji4MBaAuDEYMVg2/5EV7n0HdpvM6pDAwL7LPEuHjcU/NKM/NSPfNKUnME3vQqSHAoMDQxMnQxMjgJCDBXMDYwMq5gZLzAyHKDkdGLizdX2SpOdN5yYccAligmDoYkluBAL58sHpAVEgwKbBYMDgwNjA/a939jncHI8IPxnHED038YYOxgYpzEpGJgmppiYmpqoptkYGmha2KYZqSbaGZgqpuYlGJgaZ5okGpimmzEz3nI5SXXB7/dzAICUkwCgkABk89cWTlrHv4RYAQKMAEFXjdl6O4Q4oMJ8HKG+R65/EA2VgfIZQQAxEMKNmIBAAA=",
+         "hash": "x0mw8JlOnC0Kw/Zb1dWXx+XTC0w=",
+         "signature": "UZMbXzuymrl34SFPKR1pDpA14iNgBOUB1c4J0eg+Gio=",
+         "timestamp": "1595598567"
+      } ],
+      "last_seen": {
+         "CrashpadMetrics": "13240071264527472",
+         "SetupMetrics": "13239474699585556"
+      },
+      "low_entropy_source3": 6606,
+      "machine_id": 4822063,
+      "ongoing_logs2": [  ],
+      "session_id": 1,
+      "stability": {
+         "breakpad_registration_fail": 0,
+         "breakpad_registration_ok": 0,
+         "browser_last_live_timestamp": "13240072167700159",
+         "child_process_crash_count": 0,
+         "crash_count": 0,
+         "debugger_not_present": 1,
+         "debugger_present": 0,
+         "deferred_count": 0,
+         "discard_count": 0,
+         "exited_cleanly": false,
+         "extension_renderer_crash_count": 0,
+         "extension_renderer_failed_launch_count": 0,
+         "extension_renderer_launch_count": 1,
+         "gpu_crash_count": 0,
+         "incomplete_session_end_count": 0,
+         "launch_count": 1,
+         "page_load_count": 4,
+         "renderer_crash_count": 0,
+         "renderer_failed_launch_count": 0,
+         "renderer_hang_count": 0,
+         "renderer_launch_count": 5,
+         "saved_system_profile": "CLjDo/gFEg84NC4wLjQxNDcuODktNjQY0PC98wUiBWVuLVVTKhgKCldpbmRvd3MgTlQSCjEwLjAuMTgzNjIyVgoGeDg2XzY0EL5+GICAuNLz/x8iACgBMIAMOOAGQgoIABAAGgAyADoATXfEDUNV7mYNQ2UAAKA/ahYKDEdlbnVpbmVJbnRlbBDsjSAYCCAAggEAigEASgoNbSM6XhWepxNBUARaAggAYgRTUUpMagwIABAAGAAgBjgAQACAAeCHv/YFmAEA+AHOM4AC////////////AYgCAZICJDA1ZWQ0NTU0LWIwOTgtNDFmMi1hNjA1LWFiZDA5N2EwZTQ1Yw==",
+         "saved_system_profile_hash": "6EB2F89A215AAAD811C0F56913B322FB14B8B2BA",
+         "session_end_completed": true,
+         "stats_buildtime": "1594417592",
+         "stats_version": "84.0.4147.89-64",
+         "system_crash_count": 0,
+         "version_mismatch_count": 0
+      }
+   },
+   "variations_crash_streak": 1,
+   "was": {
+      "restarted": false
+   }
+}
+[1595855289.630][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1595855289.630][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Windows\TEMP\scoped_dir5200_255330181\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\srika\AppData\Local\Google\Chrome\User Data\Default"
+[1595855290.344][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+[1595855290.359][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595855292.386][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.89",
+      "chrome": {
+         "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
+         "userDataDir": "C:\\Users\\srika\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:59380"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7b517081cb5f8cf04e9197f85c8e2198"
+}
+[1595855292.492][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND MaximizeWindow {
+
+}
+[1595855292.493][INFO]: Waiting for pending navigations...
+[1595855292.498][INFO]: Done waiting for pending navigations. Status: ok
+[1595855292.500][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595855294.507][INFO]: Waiting for pending navigations...
+[1595855294.508][INFO]: Done waiting for pending navigations. Status: ok
+[1595855294.508][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE MaximizeWindow {
+   "height": 784,
+   "width": 1040,
+   "x": -8,
+   "y": -8
+}
+[1595855294.517][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND Navigate {
+   "url": "https://www.amazon.in"
+}
+[1595855294.517][INFO]: Waiting for pending navigations...
+[1595855294.518][INFO]: Done waiting for pending navigations. Status: ok
+[1595855294.847][INFO]: Waiting for pending navigations...
+[1595855296.389][INFO]: Done waiting for pending navigations. Status: ok
+[1595855296.389][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE Navigate
+[1595855296.411][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#searchDropdownBox"
+}
+[1595855296.412][INFO]: Waiting for pending navigations...
+[1595855296.499][INFO]: Done waiting for pending navigations. Status: ok
+[1595855296.694][INFO]: Waiting for pending navigations...
+[1595855296.722][INFO]: Done waiting for pending navigations. Status: ok
+[1595855296.722][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a4e90ded-d030-4842-8c09-386897c9002f"
+}
+[1595855296.735][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND TypeElement {
+   "id": "a4e90ded-d030-4842-8c09-386897c9002f",
+   "text": "Books",
+   "value": [ "B", "o", "o", "k", "s" ]
+}
+[1595855296.735][INFO]: Waiting for pending navigations...
+[1595855296.811][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.055][INFO]: Waiting for pending navigations...
+[1595855297.056][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.056][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE TypeElement
+[1595855297.060][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='field-keywords']"
+}
+[1595855297.061][INFO]: Waiting for pending navigations...
+[1595855297.064][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.077][INFO]: Waiting for pending navigations...
+[1595855297.083][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.083][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "853b1085-9795-4e38-8f9a-dae752f58f06"
+}
+[1595855297.088][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND TypeElement {
+   "id": "853b1085-9795-4e38-8f9a-dae752f58f06",
+   "text": "Harry potter",
+   "value": [ "H", "a", "r", "r", "y", " ", "p", "o", "t", "t", "e", "r" ]
+}
+[1595855297.088][INFO]: Waiting for pending navigations...
+[1595855297.089][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.270][INFO]: Waiting for pending navigations...
+[1595855297.271][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.271][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE TypeElement
+[1595855297.276][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']"
+}
+[1595855297.276][INFO]: Waiting for pending navigations...
+[1595855297.282][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.299][INFO]: Waiting for pending navigations...
+[1595855297.300][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.301][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fc14728e-bce9-4426-9ab4-5befcece3f66"
+}
+[1595855297.305][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND ClickElement {
+   "id": "fc14728e-bce9-4426-9ab4-5befcece3f66"
+}
+[1595855297.305][INFO]: Waiting for pending navigations...
+[1595855297.306][INFO]: Done waiting for pending navigations. Status: ok
+[1595855297.484][INFO]: Waiting for pending navigations...
+[1595855299.732][INFO]: Done waiting for pending navigations. Status: ok
+[1595855299.732][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE ClickElement
+[1595855299.743][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] COMMAND Quit {
+
+}
+[1595855299.780][INFO]: [7b517081cb5f8cf04e9197f85c8e2198] RESPONSE Quit
